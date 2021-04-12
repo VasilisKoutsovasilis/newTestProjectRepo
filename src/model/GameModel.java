@@ -9,6 +9,7 @@ public class GameModel {
 	public GameModel() {
 		this.playerCatalogue = new PLayerCatalogue();
 		this.gamePlayers = new String[2];
+		this.gameBoard = null;
 	}
 	
 	public void selectPlayer(String player, int pos) {
